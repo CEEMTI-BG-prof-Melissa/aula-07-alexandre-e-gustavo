@@ -1,1 +1,42 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/EmWyyyTI)
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>formulario com medo post</h1>
+        <form> action="recebe.html " metodo ="post">
+            <br>
+            <br>
+            nome completo: <input type="text" maxlength="50" ="nomecompleto" name="nomecompleto">
+            <br>
+            <br>
+            senha: <input type ="password" id="senha" name ="senha">
+            <br>
+            <br>
+            idade: <input type ="number" id="idade" name="idade" min="1" max="180">
+            <br>
+            <br>
+            email: <input type ="email" id="email" name="email">
+            <br>
+            <br>
+            data de nasciemnto: <input type ="date" id="datadenascimento" name="datadenasciemnt0">
+            <br>
+            <br>
+            mensagen de observação: <textarea id="observação" name="observação" rows="4" cols="40"></textarea>
+            <br>
+            <br>
+            area de interesse:
+            <select>
+                <option value="programação">programação</option>
+                <option value="desing">desing</option>
+                <option value="redes"></option>
+                <option value="suporte"></option>
+                <br>
+                <br>
+                botão de envio: <input type ="submit" value="enviar">
+                <br>
+                <br>
+            </select>
+        </form>
+    </body>
+</html>
