@@ -1,42 +1,51 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/EmWyyyTI)
 <html>
     <head>
     </head>
     <body>
-        <h1>formulario com medo post</h1>
-        <form> action="recebe.html "metodo" ="post">
-            <br>
-            <br>
-            nome completo: <input type="text" maxlength="50" ="nomecompleto" name="nomecompleto">
-            <br>
-            <br>
-            senha: <input type ="password" id="senha" name ="senha">
-            <br>
-            <br>
-            idade: <input type ="number" id="idade" name="idade" min="1" max="180">
-            <br>
-            <br>
-            email: <input type ="email" id="email" name="email">
-            <br>
-            <br>
-            data de nasciemnto: <input type ="date" id="datadenascimento" name="datadenasciemnt0">
-            <br>
-            <br>
-            mensagen de observação: <textarea id="observação" name="observação" rows="4" cols="40"></textarea>
-            <br>
-            <br>
-            area de interesse:
-            <select>
-                <option value="programação">programação</option>
-                <option value="desing">desing</option>
-                <option value="redes"></option>
-                <option value="suporte"></option>
-                <br>
-                <br>
-                botão de envio: <input type ="submit" value="enviar">
-                <br>
-                <br>
-            </select>
-        </form>
+        <h1> Formulário com método post </h1>
+    <form action="/recebe.html" method="post">
+      <!-- Este e um campo de nome completo -->
+      <label For="Nomecompleto"> Nomecompleto: </label>
+      <br>
+      <input type="text" maxlength="50" id="Nomecompleto" name="Nomecompleto">
+      <br>
+      <!-- Este e um campo de senha -->
+      <label For="senha"> senha: </label>  
+      <br>
+      <input type="password" id="senha" name="senha">
+      <br>
+      <!-- Este e um campo de idade  -->
+      <label For="idade"> Idade: </label>
+      <br>
+      <input type="number" minlength="1" maxlength="10" id="idade" name="idade">
+      <br>
+      <!-- Este e um campo de e-mail -->
+      <label For="email"> email: </label>
+      <br>
+      <input type="email" id="email" name="email">
+      <br>
+      <!-- Este e um campo de Data de nascimento -->
+      <label For="data"> Datadenascimento: </label>
+      <br>
+      <input type="date" minlength="01-01-2000" maxlength="31-12-2024" id="data" name="data">
+      <br>
+      <!-- Este e um campo de mensagem de observações -->
+      <label For="mensagem"> mensagem de observações: </label>
+      <br>
+      <textarea rows="4" cols="40" id="mensagem" name="mensagem"> </textarea>
+      <br>
+      <!-- Este e um campo de area de interesse-->
+      <label For="areadeinteresse"> areadeinteresse: </label>
+      <br>
+      <select id="areadeinteresse">
+          <option value="programação">programação</option>
+          <option value="design">design</option>
+          <option value="redes">redes</option>
+          <option value="suporte">suporte</option>
+      </select>
+      <br>
+      <br>
+      botão de envio: <input type=""submit" value="enviar">
+      <br>
     </body>
-</html>
+</html> 
