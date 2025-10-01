@@ -16,8 +16,8 @@
         echo "Agora A e igual a $a.";
         echo "<br></br>";
 
-        $a=$a+8;
-        echo "Agora A e igual $a";
+        $b+=8;
+        echo "Agora B e igual $b";
         echo "<br></br>";
 
         $b-=5;
